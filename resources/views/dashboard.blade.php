@@ -66,7 +66,7 @@
                             <div class="text-xs uppercase font-semibold opacity-60">Actives</div>
                         </div>
                         <button class="btn btn-square btn-ghost">
-                            {{ App\Models\User::where('active', 1)->count() }}
+
                         </button>
                     </li>
                     </ul>
